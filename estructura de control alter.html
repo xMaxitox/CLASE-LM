@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+          /*Declarar un array con las notas de 1 alumno, cuantas notas tiene aprobadas*/
+                    /*la media de las notas que estan aprobadas*/
+
+        let notas = [5, 7, 3, 5, 4];
+        let aprobadas=0;
+        function contarAprobadas(notas){
+        for(let i=0; i<notas.length; i++){
+            if(notas[i]>=5){
+                aprobadas++;
+                suma += notas[i];            
+            }
+            let media = suma / aprobadas;
+            return media;
+        }
+                alert("Cantidad de notas aprobadas: " + aprobadas);
+                alert("La media de las notas aprobadas es: " + media);
+    }
+        contarAprobadas(notas);
+    </script>
+
+</body>
+</html>
+

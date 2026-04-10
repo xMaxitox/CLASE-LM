@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+    /*
+    -Declara un array con una serie de valores, optener o visualizar si hay más de 1 nº negativo.
+    -Declara un array y visualizar si, si o no, que tenga el nº -..... 
+    
+    -Visualizar nº del 10 en adelante hasta que encuentre un multiplo de 7
+    */
+
+    tabla_numeros = [1, 2, 3, 4, 5, -99, 8, 9];
+    visualizar();
+
+function visualizar (datos){
+   let sw = 0, conts = 10;
+    for (let i = 0; i < tabla_numeros.length; i++) {
+        while (sw== 0){
+            if (conts % 7 == 0){
+                sw = 1;
+            }
+            else{
+                alert(conts);
+                conts+= 1;
+            } 
+        }
+    }
+    if (conts > 1)
+    {
+        console.log("Hay más de un número negativo");
+}
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*Visualizar las notas aprobadas */
+        tblanotas=[5,2,6,7,8];
+        visualizar(tblanotas);
+
+        function visualizar(notas){
+            let i = 0;
+            sw=0;
+            while(sw==0){
+                if (i == notas.length){
+                    sw=1;
+                }else{
+                    if (notas[i] >= 5){
+                        alert(notas[i]);
+                    }
+                }
+                i++;
+            }
+        }
+    </script>
+
+</body>
+</html>

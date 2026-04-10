@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          /*Da 2 nº enteros, visualizar los comprendido entre ambos, ejem: 2 y el 8. ¿Cuantos valores negativos hay?*/
+                    /*Da 2 numeros la suma de esos 2 números*/
+
+        let n1=5;
+        let n2=10;
+
+        if(n1>n2){
+            alert("Error: El primer número es mayor que el segundo.");
+        }else{
+        function mostrarNºEnteros(n1,n2){
+            let inicio = n1 +1;
+            let i = inicio;
+            let negativos=0;
+            let acumulador=0;
+
+            while(i<n2){
+                    alert(i);
+                        acumulador = acumulador + i;
+                    if(i<0){
+                        negativos++;
+                    }   
+                    i++;
+                }
+                alert("Cantidad de números negativos: " + negativos + " y la suma de los números es: " + acumulador);
+             }
+        }  
+        mostrarNºEnteros(n1,n2);
+
+    </script>
+
+</body>
+</html>
+
