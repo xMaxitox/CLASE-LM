@@ -1,2 +1,0 @@
-# CLASE-LM
-1ºASIR
