@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Suma-->
+<p id="resultado"></p>
+<script>
+
+                 //-----FUNCIONES-----
+function sumar(num1,num2){
+    let suma = num1 + num2;
+    return suma;
+}
+                //-----PROGRAMA PRINCIPAL-----
+
+let numero1 = 5;
+let numero2 = 7;
+document.write(sumar(numero1, numero2));
+alert(sumar(numero1, numero2));
+document.getElementById("resultado").innerHTML=sumar(numero1, numero2);
+</script>
+
+</body>
+</html>
+
