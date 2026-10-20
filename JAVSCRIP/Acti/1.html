@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>Dado el nombre de una persona y su edad y a continuación, 
+    nombre de otra persona y su edad. 
+    Visualizar el nombre de la persona que tenga más edad</p>
+  
+<script>
+
+let nombre1, nombre2;
+let edad1, edad2;
+
+nombre1 = prompt('Ingrese su nombre:');
+edad1 = parseInt(prompt('Ingrese su edad:'));
+
+nombre2 = prompt('Ingrese su nombre:');
+edad2 = parseInt(prompt('Ingrese su edad:'));
+
+
+    if (edad1 == edad2) {
+    alerta('Tiene las misma edad');
+    } else {
+        if (edad1 > edad2) {
+            alert(nombre1  + 'Es mayor que ' + nombre2);
+        } else{
+            if (edad1 > edad2) {
+            alert(nombre1 + ' es mayor que ' + nombre2);
+        } else {
+        alert(nombre2 + ' es mayor que ' + nombre1);
+            }
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
