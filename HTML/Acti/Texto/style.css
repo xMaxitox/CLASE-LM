@@ -1,0 +1,34 @@
+body{
+margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+#datos{
+    width: 17%;
+    margin-left: 40px;
+    float: left;
+
+}
+
+section#descripcion,#contenido{
+    width: 55%;
+    margin-left: 20%;
+}
+
+#contenido ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contenido li {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+
+#contenido li {
+  margin-right: 10px;
+}
